@@ -1,8 +1,14 @@
 {
   "name": "karma-rollup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Karma preprocessor to bundle ES2015 modules using Rollup",
   "main": "lib/index.js",
+  "files": [
+    "lib",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.txt"
+  ],
   "engines": {
     "node": ">= 8.0.0"
   },
