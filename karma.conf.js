@@ -32,7 +32,7 @@ module.exports = function(config) {
 					format: 'iife',
 					sourcemap: 'inline'
 				},
-				plugins: [require('rollup-plugin-buble')()]
+				plugins: [require('@rollup/plugin-buble')()]
 			}
 		},
 
@@ -41,9 +41,9 @@ module.exports = function(config) {
 				base: 'rollup',
 				options: {
 					plugins: [
-						require('rollup-plugin-node-resolve')(),
-						require('rollup-plugin-commonjs')(),
-						require('rollup-plugin-buble')()
+						require('@rollup/plugin-node-resolve')(),
+						require('@rollup/plugin-commonjs')(),
+						require('@rollup/plugin-buble')()
 					]
 				}
 			}

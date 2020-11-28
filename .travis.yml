@@ -1,4 +1,6 @@
 language: node_js
+os:
+  - linux
 dist: trusty
 node_js:
   - "8"
@@ -6,7 +8,11 @@ sudo: required
 addons:
   chrome: stable
 before_install:
-  - npm install rollup
+  - npm install
+  - npm install -g npx
 before_script:
   - "sudo chown root /opt/google/chrome/chrome-sandbox"
   - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
+script:
+  - npm run test
+  - npx general-release

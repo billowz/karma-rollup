@@ -2,11 +2,11 @@
 
 Karma preprocessor to bundle ES2015 modules using [Rollup](http://rollupjs.org).
 
-[![Travis](https://img.shields.io/travis/tao-zeng/karma-rollup.svg)](https://travis-ci.org/tao-zeng/karma-rollup)
-[![Dependency](https://img.shields.io/david/tao-zeng/karma-rollup.svg)](https://david-dm.org/tao-zeng/karma-rollup)
+[![Travis](https://img.shields.io/travis/billowz/karma-rollup.svg)](https://travis-ci.org/billowz/karma-rollup)
+[![Dependency](https://img.shields.io/david/billowz/karma-rollup.svg)](https://david-dm.org/billowz/karma-rollup)
 [![Downloads](https://img.shields.io/npm/dm/karma-rollup.svg)](https://www.npmjs.com/package/karma-rollup)
 [![Version](https://img.shields.io/npm/v/karma-rollup.svg)](https://www.npmjs.com/package/karma-rollup)
-[![license](https://img.shields.io/github/license/tao-zeng/karma-rollup.svg)](https://github.com/tao-zeng/karma-rollup/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/billowz/karma-rollup.svg)](https://github.com/billowz/karma-rollup/blob/master/LICENSE)
 
 ## Features
 
