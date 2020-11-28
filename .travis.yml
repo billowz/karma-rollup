@@ -8,11 +8,11 @@ sudo: required
 addons:
   chrome: stable
 before_install:
-  - "sudo npm install --unsafe-perm"
-  - "npm install -g npx"
+  - npm install --unsafe-perm
+  - npm install -g npx
 before_script:
   - "sudo chown root /opt/google/chrome/chrome-sandbox"
   - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
 script:
   - npm run test
-  - "sudo npx general-release"
+  - npx general-release
