@@ -7,6 +7,10 @@ sudo: required
 addons:
   chrome: stable
 before_install:
+  - sudo ln -s /usr/local/bin/node /usr/bin/node
+  - sudo ln -s /usr/local/lib/node /usr/lib/node
+  - sudo ln -s /usr/local/bin/npm /usr/bin/npm
+  - sudo ln -s /usr/local/bin/node-waf /usr/bin/node-waf
   - sudo npm install --unsafe-perm
   - npm install -g npx
 before_script:
