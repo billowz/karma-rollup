@@ -1,3 +1,5 @@
 node_modules
 .sonarlint
 yarn.lock
+.gitmessage
+.package-lock.json

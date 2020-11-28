@@ -6,13 +6,11 @@ module.exports = function(config) {
 		reporters: ['mocha'],
 		browsers: ['ChromeHeadless'],
 
-		logLevel: config.LOG_INFO, // disable > error > warn > info > debug
 		captureTimeout: 60000,
 		autoWatch: true,
 		singleRun: true,
 		colors: true,
 		port: 9876,
-        logLevel: config.LOG_DEBUG,
 
 		basePath: '',
 		files: [
@@ -41,7 +39,7 @@ module.exports = function(config) {
 				base: 'rollup',
 				options: {
 					plugins: [
-						require('@rollup/plugin-node-resolve')(),
+						require('@rollup/plugin-node-resolve').nodeResolve(),
 						require('@rollup/plugin-commonjs')(),
 						require('@rollup/plugin-buble')()
 					]
