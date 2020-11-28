@@ -8,7 +8,7 @@ addons:
   chrome: stable
 before_install:
   - sudo apt-get install npm
-  - sudo npm install --unsafe-perm
+  - sudo npm install
   - npm install -g npx
 before_script:
   - "sudo chown root /opt/google/chrome/chrome-sandbox"
